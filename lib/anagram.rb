@@ -18,7 +18,7 @@ class Anagram
     return anagrams
   end 
   
-  def anagram_match(string1, string2)
+  def anagram_match(string1, string2) #checking to see if they have same letters
     string1.split("").sort == string2.split("").sort
   end
   
